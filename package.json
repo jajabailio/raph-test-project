@@ -1,0 +1,18 @@
+{
+  "name": "raph-test-project",
+  "version": "1.0.0",
+  "description": "The objective of this project is for us to get to know you better in terms of working together and communicating, as well as it will give us a glimpse of your skillset in building and testing applications. Please read the entire document before you start.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  }
+}

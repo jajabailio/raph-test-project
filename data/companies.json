@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "companyName": "Updated Company Colgate",
+    "address": "Davao City",
+    "ownedBy": "David"
+  },
+  {
+    "id": 2,
+    "companyName": "Company B",
+    "address": "456 Elm St",
+    "ownedBy": "Jane Smith"
+  },
+  {
+    "id": 3,
+    "companyName": "Updated Company Colgate",
+    "address": "Manila",
+    "ownedBy": "raph"
+  }
+]
