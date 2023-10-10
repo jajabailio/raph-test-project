@@ -36,7 +36,7 @@ Good luck! If you have any questions, feel free to reach out to my email on the 
 <img src="./imgs/companies-list-page.png" />
 
 
-Description: Total counts at the top are counts of the companies (active, in-active, and total). Then list out the companies displaying their name, a count of how many users they have, and their status. Each company should have a link "View Details" that links to their details page (below)
+> Description: Total counts at the top are counts of the companies (active, in-active, and total). Then list out the companies displaying their name, a count of how many users they have, and their status. Each company should have a link "View Details" that links to their details page (below)
 
 
 ### Page 2: Company Details
