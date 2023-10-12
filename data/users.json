@@ -21,14 +21,77 @@
     "firstName": "Layla",
     "lastName": "Miya",
     "email": "Miya@example.com",
-    "role": "MM"
+    "role": "MM3"
   },
   {
     "id": 4,
-    "companyId": 2,
+    "companyId": 3,
     "firstName": "David",
     "lastName": "Wilson",
     "email": "david@example.com",
     "role": "Manager"
+  },
+  {
+    "id": 5,
+    "companyId": 4,
+    "firstName": "test",
+    "lastName": "test3",
+    "email": "test5@example.com",
+    "role": "Employee IV"
+  },
+  {
+    "id": 6,
+    "companyId": 4,
+    "firstName": "Raphael",
+    "lastName": "Villejo",
+    "email": "raph@gmail.com",
+    "role": "Owner"
+  },
+  {
+    "id": 7,
+    "companyId": 4,
+    "firstName": "Tig",
+    "lastName": "Real",
+    "email": "tig@gmail.com",
+    "role": "Test"
+  },
+  {
+    "id": 8,
+    "companyId": "Nursing",
+    "firstName": "Amy",
+    "lastName": "Notarte",
+    "email": "amy@test.com",
+    "role": "Guest"
+  },
+  {
+    "id": 9,
+    "companyId": null,
+    "firstName": "Kyrie",
+    "lastName": "Irving",
+    "email": "ky@testmail.com",
+    "role": "Owner"
+  },
+  {
+    "id": 10,
+    "firstName": "Carlos",
+    "lastName": "nevermind",
+    "email": "nv@email.com",
+    "role": "Guest"
+  },
+  {
+    "id": 14,
+    "companyId": "4",
+    "firstName": "sfsf",
+    "lastName": "fgdgdf",
+    "email": "dgdfg@email.com",
+    "role": "owner"
+  },
+  {
+    "id": 12,
+    "companyId": "1",
+    "firstName": "sdfsf",
+    "lastName": "sdfsdf",
+    "email": "sdfs@email.com",
+    "role": "owner"
   }
 ]

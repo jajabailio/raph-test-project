@@ -1,0 +1,56 @@
+.company-form {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.company-form h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.company-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.company-form input,
+.company-form select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.company-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23007BFF' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.646 10.646a.5.5 0 0 1-.708 0L2.146 5.146a.5.5 0 0 1 .708-.708L8 9.293l5.146-5.147a.5.5 0 0 1 .708.708l-6 6z'/%3E%3C/svg%3E")
+    no-repeat center right;
+}
+
+.company-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.company-form button:hover {
+  background-color: #0056b3;
+}

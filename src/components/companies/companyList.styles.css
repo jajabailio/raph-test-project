@@ -1,0 +1,67 @@
+.company-list {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.company-headers {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.company-headers li {
+  display: inline;
+}
+
+.table-company-list {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.tr-company-list {
+  border: 1px solid #ccc;
+}
+
+.td-company-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.td-company-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.td-company-list a:hover {
+  text-decoration: underline;
+}
+
+.button-send {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.button-send:hover {
+  background-color: #0056b3;
+}

@@ -13,11 +13,17 @@ function writeDataToJsonFile(filePath, data) {
 }
 
 router.post("/companies", (req, res) => {
-  const { companyName, address, ownedBy } = req.body
+  const { companyName, address, ownedBy, active } = req.body
   const companies = readDataFromJsonFile("data/companies.json")
   const newCompanyId = companies.length + 1
 
-  const newCompany = new Company(newCompanyId, companyName, address, ownedBy)
+  const newCompany = new Company(
+    newCompanyId,
+    companyName,
+    address,
+    ownedBy,
+    active
+  )
 
   companies.push(newCompany)
 
@@ -28,7 +34,7 @@ router.post("/companies", (req, res) => {
 
 router.put("/companies/:id", (req, res) => {
   const companyId = parseInt(req.params.id)
-  const { companyName, address, ownedBy } = req.body
+  const { companyName, address, ownedBy, active } = req.body
   const companies = readDataFromJsonFile("data/companies.json")
 
   const companyToUpdate = companies.find((company) => company.id === companyId)
@@ -40,6 +46,7 @@ router.put("/companies/:id", (req, res) => {
   companyToUpdate.companyName = companyName
   companyToUpdate.address = address
   companyToUpdate.ownedBy = ownedBy
+  companyToUpdate.active = active
 
   writeDataToJsonFile("data/companies.json", companies)
 
@@ -47,12 +54,6 @@ router.put("/companies/:id", (req, res) => {
 })
 
 router.get("/companies", (req, res) => {
-  //   if (readDataFromJsonFile("data/companies.json")) {
-  //     res.send("Hello World")
-  //   } else {
-  //     res.send("wala")
-  //   }
-
   const companies = readDataFromJsonFile("data/companies.json")
   const users = readDataFromJsonFile("data/companies.json")
 

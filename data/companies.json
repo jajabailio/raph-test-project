@@ -3,18 +3,47 @@
     "id": 1,
     "companyName": "Updated Company Colgate",
     "address": "Davao City",
-    "ownedBy": "David"
+    "ownedBy": "David",
+    "active": true
   },
   {
     "id": 2,
     "companyName": "Company B",
     "address": "456 Elm St",
-    "ownedBy": "Jane Smith"
+    "ownedBy": "Jane Smith",
+    "active": true
   },
   {
     "id": 3,
     "companyName": "Updated Company Colgate",
     "address": "Manila",
-    "ownedBy": "raph"
+    "ownedBy": "raph",
+    "active": false
+  },
+  {
+    "id": 4,
+    "companyName": "ONB",
+    "address": "sasa Davao City",
+    "ownedBy": "dela cruz",
+    "active": false
+  },
+  {
+    "id": 5,
+    "companyName": "company 1",
+    "address": "test add",
+    "ownedBy": "sfsfs"
+  },
+  {
+    "id": 6,
+    "companyName": "sdfdsf",
+    "address": "sdfsf",
+    "ownedBy": "sdfsf"
+  },
+  {
+    "id": 7,
+    "companyName": "sdfsdf",
+    "address": "sdfsf",
+    "ownedBy": "sdfsd",
+    "active": "false"
   }
 ]
